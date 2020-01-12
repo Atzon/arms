@@ -1,0 +1,18 @@
+# ninja log v5
+1	143	1575246894	Target_Legato_Debug/component/698a95991f0f2a25dea42e97225570ba/obj/_componentMain.c.o	5a42a77c84fcc36c
+2	186	1575246894	Target_Legato_Debug/app/test_gnss/obj/test_gnss/_main.c.o	2058652bcaa41a46
+0	333	1575246894	Target_Legato_Debug/api/9383acb44d532a986b91e46e29c209e5/client/le_posCtrl_client.c	7670194d90788200
+0	333	1575246894	Target_Legato_Debug/api/9383acb44d532a986b91e46e29c209e5/client/le_posCtrl_interface.h	7670194d90788200
+0	333	1575246894	Target_Legato_Debug/api/9383acb44d532a986b91e46e29c209e5/client/le_posCtrl_messages.h	7670194d90788200
+0	421	1575246894	Target_Legato_Debug/api/f3855c8c37124c560a9f1157de67a5c1/client/le_pos_client.c	d1a588b946e79b8a
+0	421	1575246894	Target_Legato_Debug/api/f3855c8c37124c560a9f1157de67a5c1/client/le_pos_interface.h	d1a588b946e79b8a
+0	421	1575246894	Target_Legato_Debug/api/f3855c8c37124c560a9f1157de67a5c1/client/le_pos_messages.h	d1a588b946e79b8a
+333	457	1575246894	Target_Legato_Debug/api/9383acb44d532a986b91e46e29c209e5/client/le_posCtrl_client.c.o	4c88993f87e79109
+421	537	1575246894	Target_Legato_Debug/component/698a95991f0f2a25dea42e97225570ba/obj/a95274b6d015e7b8b7ca66ca493805b2.o	3daf1145db6aaaf3
+421	654	1575246894	Target_Legato_Debug/api/f3855c8c37124c560a9f1157de67a5c1/client/le_pos_client.c.o	7edcb8aae9d12d74
+655	682	1575246894	Target_Legato_Debug/staging/read-only/lib/libComponent_test_gnssComponent.so	95c3e8537d6dc1f0
+682	685	1575246894	Target_Legato_Debug/app/test_gnss/staging/read-only/lib/libComponent_test_gnssComponent.so	1e3c6c40665b423e
+682	710	1575246894	Target_Legato_Debug/app/test_gnss/obj/test_gnss/test_gnss	dfd8b1285c2a8a55
+710	712	1575246894	Target_Legato_Debug/app/test_gnss/staging/read-only/bin/test_gnss	f2572d9eabd7967e
+712	719	1575246894	Target_Legato_Debug/app/test_gnss/staging/info.properties	e9a0aecc86121a07
+719	745	1575246894	Target_Legato_Debug/test_gnss.wp77xx.update	86c47fae61810d79

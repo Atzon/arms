@@ -1,0 +1,13 @@
+requires:
+{
+    api:
+    {
+        positioning/le_posCtrl.api
+        positioning/le_pos.api
+    }
+}
+
+sources:
+{
+	test_gnssComponent.c
+}

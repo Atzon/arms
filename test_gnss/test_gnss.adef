@@ -1,0 +1,29 @@
+executables:
+{
+	test_gnss = ( test_gnssComponent )
+}
+
+processes:
+{
+	envVars:
+	{
+		LE_LOG_LEVEL = DEBUG
+	}
+
+	run:
+	{
+		( test_gnss )
+	}
+
+	maxCoreDumpFileBytes: 512K
+	maxFileBytes: 512K
+}
+
+bindings:
+{
+    test_gnss.test_gnssComponent.le_pos -> positioningService.le_pos
+    test_gnss.test_gnssComponent.le_posCtrl -> positioningService.le_posCtrl
+}
+
+version: 1.0.0
+maxFileSystemBytes: 512K

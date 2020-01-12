@@ -1,0 +1,4 @@
+sources:
+{
+	read_sensor_dataComponent.c
+}

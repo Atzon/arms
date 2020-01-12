@@ -1,0 +1,29 @@
+executables:
+{
+	read_gps_position = ( read_gps_positionComponent )
+}
+
+processes:
+{
+	envVars:
+	{
+		LE_LOG_LEVEL = DEBUG
+	}
+
+	run:
+	{
+		( read_gps_position )
+	}
+
+	maxCoreDumpFileBytes: 512K
+	maxFileBytes: 512K
+}
+
+bindings:
+{
+    read_gps_position.read_gps_positionComponent.le_pos -> positioningService.le_pos
+    read_gps_position.read_gps_positionComponent.le_posCtrl -> positioningService.le_posCtrl
+}
+
+version: 1.0.0
+maxFileSystemBytes: 512K

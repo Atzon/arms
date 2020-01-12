@@ -1,0 +1,44 @@
+sandboxed: false
+
+executables:
+{
+	read_data_send_package = ( read_data_send_packageComponent )
+}
+
+processes:
+{
+	envVars:
+	{
+		LE_LOG_LEVEL = DEBUG
+	}
+
+	run:
+	{
+		( read_data_send_package )
+	}
+
+	maxCoreDumpFileBytes: 512K
+	maxFileBytes: 512K
+}
+
+bindings:
+{
+	// GPS
+    read_data_send_package.read_data_send_packageComponent.le_pos -> positioningService.le_pos
+    read_data_send_package.read_data_send_packageComponent.le_posCtrl -> positioningService.le_posCtrl
+    
+    // networking
+    read_data_send_package.read_data_send_packageComponent.le_mdc -> modemService.le_mdc
+    read_data_send_package.read_data_send_packageComponent.le_data -> dataConnectionService.le_data
+}
+
+requires:
+{
+	device:
+	{
+		[rw]	/dev/ttyHS0	/dev/ttyHS0
+	}
+}
+
+version: 1.0.0
+maxFileSystemBytes: 512K

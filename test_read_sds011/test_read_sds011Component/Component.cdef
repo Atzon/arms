@@ -1,0 +1,4 @@
+sources:
+{
+	test_read_sds011Component.c
+}

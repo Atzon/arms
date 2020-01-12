@@ -1,0 +1,31 @@
+executables:
+{
+	test_read_sds011 = ( test_read_sds011Component )
+}
+
+processes:
+{
+	envVars:
+	{
+		LE_LOG_LEVEL = DEBUG
+	}
+
+	run:
+	{
+		( test_read_sds011 )
+	}
+
+	maxCoreDumpFileBytes: 512K
+	maxFileBytes: 512K
+}
+
+requires:
+{
+	device:
+	{
+		[rw]	/dev/ttyHS0	/dev/ttyHS0
+	}
+}
+
+version: 1.0.0
+maxFileSystemBytes: 512K

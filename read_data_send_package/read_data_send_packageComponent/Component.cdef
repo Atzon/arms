@@ -1,0 +1,35 @@
+requires:
+{
+	lib:
+	{
+		curl
+	}
+    api:
+    {
+    	// gps
+        positioning/le_posCtrl.api
+        positioning/le_pos.api
+        
+		// networking
+		le_mdc = le_mdc.api
+		le_data = le_data.api
+    }
+
+	file:
+	{
+		/usr/lib/libcurl.so.4       /lib/
+		/usr/lib/libssl.so.1.0.2	/lib/
+		/lib/libz.so.1			    /lib/
+		/usr/lib/libcrypto.so.1.0.2			    /lib/
+		/usr/lib/libcurl.so.4.5.0 /lib/
+	}
+	dir:
+	{
+		/home/root/aws-ula	/home/root/aws-ula
+	}
+}
+
+sources:
+{
+	read_data_send_packageComponent.c
+}

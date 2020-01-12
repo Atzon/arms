@@ -1,0 +1,26 @@
+# ninja log v5
+0	467	1574117152	Target_Legato_Debug/api/f6fbc8e2780067b3c5f7f87fc9d69eef/client/le_mrc_client.c	58e4e5cce8e573d3
+0	467	1574117152	Target_Legato_Debug/api/f6fbc8e2780067b3c5f7f87fc9d69eef/client/le_mrc_interface.h	58e4e5cce8e573d3
+0	467	1574117152	Target_Legato_Debug/api/f6fbc8e2780067b3c5f7f87fc9d69eef/client/le_mrc_messages.h	58e4e5cce8e573d3
+0	124	1574117152	Target_Legato_Debug/component/e7e929ea50f187af45cb47ed8c63167f/obj/_componentMain.c.o	377b1b7281da17b0
+0	143	1574117152	Target_Legato_Debug/app/test_iot_conn/obj/test_iot_conn/_main.c.o	d16dc120270a9f49
+0	156	1574117152	Target_Legato_Debug/component/e7e929ea50f187af45cb47ed8c63167f/obj/329fdcdb696e238bc8d9f024c14e8e03.o	85a3420262b963e6
+0	511	1574117152	Target_Legato_Debug/api/f6fbc8e2780067b3c5f7f87fc9d69eef/client/le_mrc_client.c.o	e296c6b4b04daff3
+511	566	1574117152	Target_Legato_Debug/staging/read-only/lib/libComponent_test_iot_connComponent.so	717a2dbca7f18f55
+566	568	1574117152	Target_Legato_Debug/app/test_iot_conn/staging/read-only/lib/libComponent_test_iot_connComponent.so	328f4b81069745cd
+566	623	1574117152	Target_Legato_Debug/app/test_iot_conn/obj/test_iot_conn/test_iot_conn	12175a6f7670b4b3
+623	625	1574117152	Target_Legato_Debug/app/test_iot_conn/staging/read-only/bin/test_iot_conn	4ea651871bb229db
+625	632	1574117153	Target_Legato_Debug/app/test_iot_conn/staging/info.properties	6933887b27addbb7
+632	664	1574117153	Target_Legato_Debug/test_iot_conn.wp77xx.update	8e6875124b2174b6
+0	3	1574117154	Target_Legato_Debug/app/test_iot_conn/staging/read-only/bin/test_iot_conn	4ea651871bb229db
+0	4	1574117154	Target_Legato_Debug/app/test_iot_conn/staging/read-only/lib/libComponent_test_iot_connComponent.so	328f4b81069745cd
+4	12	1574117154	Target_Legato_Debug/app/test_iot_conn/staging/info.properties	6933887b27addbb7
+12	53	1574117154	Target_Legato_Debug/test_iot_conn.wp77xx.update	8e6875124b2174b6
+1	105	1574702690	Target_Legato_Debug/component/e7e929ea50f187af45cb47ed8c63167f/obj/_componentMain.c.o	377b1b7281da17b0
+1	153	1574702690	Target_Legato_Debug/app/test_iot_conn/obj/test_iot_conn/_main.c.o	d16dc120270a9f49
+105	180	1574702690	Target_Legato_Debug/staging/read-only/lib/libComponent_test_iot_connComponent.so	717a2dbca7f18f55
+180	185	1574702690	Target_Legato_Debug/app/test_iot_conn/staging/read-only/lib/libComponent_test_iot_connComponent.so	328f4b81069745cd
+180	258	1574702690	Target_Legato_Debug/app/test_iot_conn/obj/test_iot_conn/test_iot_conn	12175a6f7670b4b3
+259	261	1574702690	Target_Legato_Debug/app/test_iot_conn/staging/read-only/bin/test_iot_conn	4ea651871bb229db
+261	270	1574702690	Target_Legato_Debug/app/test_iot_conn/staging/info.properties	6933887b27addbb7
+270	309	1574702690	Target_Legato_Debug/test_iot_conn.wp77xx.update	8e6875124b2174b6

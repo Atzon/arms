@@ -1,0 +1,31 @@
+executables:
+{
+	read_sensor_data = ( read_sensor_dataComponent )
+}
+
+processes:
+{
+	envVars:
+	{
+		LE_LOG_LEVEL = DEBUG
+	}
+
+	run:
+	{
+		( read_sensor_data )
+	}
+
+	maxCoreDumpFileBytes: 512K
+	maxFileBytes: 512K
+}
+
+requires:
+{
+	device:
+	{
+		[rw]	/dev/ttyHS0	/dev/ttyHS0
+	}
+}
+
+version: 1.0.0
+maxFileSystemBytes: 512K

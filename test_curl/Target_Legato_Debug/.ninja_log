@@ -1,0 +1,10 @@
+# ninja log v5
+0	91	1574702101	Target_Legato_Debug/component/25e56cf0d8b82f15fb22384cef8fdea0/obj/_componentMain.c.o	4d8716ec34e6f6de
+0	121	1574702101	Target_Legato_Debug/component/25e56cf0d8b82f15fb22384cef8fdea0/obj/302730914c52b5c9b604856919586fd2.o	6f8fd83b4a5ee36c
+0	134	1574702101	Target_Legato_Debug/app/test_curl/obj/test_curl/_main.c.o	6336493bca6ea9a1
+121	147	1574702101	Target_Legato_Debug/staging/read-only/lib/libComponent_test_curlComponent.so	8f6b5cf5cb69c1de
+147	150	1574702101	Target_Legato_Debug/app/test_curl/staging/read-only/lib/libComponent_test_curlComponent.so	200d5b9710d7487
+148	179	1574702101	Target_Legato_Debug/app/test_curl/obj/test_curl/test_curl	ee823831f738f93f
+179	183	1574702101	Target_Legato_Debug/app/test_curl/staging/read-only/bin/test_curl	3d3f53a2486ae7f3
+183	191	1574702101	Target_Legato_Debug/app/test_curl/staging/info.properties	696513dc9e3e78cd
+191	209	1574702101	Target_Legato_Debug/test_curl.wp77xx.update	d7538e2819d7e0b2

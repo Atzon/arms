@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="legato.core.af.projectType.exe.release.19062295">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="legato.core.af.projectType.exe.release.19062295" moduleId="org.eclipse.cdt.core.settings" name="Target_Legato_Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.swi.ebs.legato.core.MkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.swi.ebs.legato.core.CrossGCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${DsLegatoAdefFile}" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,com.wavecom.openat.ide.buildArtefactType=com.wavecom.openat.ide.ebs.core.binaryproject" description="" id="legato.core.af.projectType.exe.release.19062295" name="Target_Legato_Release" parent="legato.core.af.projectType.exe.release">
+					<folderInfo id="legato.core.af.projectType.exe.release.19062295." name="/" resourcePath="">
+						<toolChain id="legato.core.af.projectType.exe.release.toolchain.793708549" name="Legato Application Framework GCC" superClass="legato.core.af.projectType.exe.release.toolchain">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="legato.targetPlatform.gnu.cross.1646057385" isAbstract="false" osList="all" superClass="legato.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/test_iot_conn}/Target_Legato_Release" id="com.swi.ebs.legato.core.builder.af.1029798278" keepEnvironmentInBuildfile="false" name="[Sierra Wireless] Legato Application Framework Builder" superClass="com.swi.ebs.legato.core.builder.af"/>
+							<tool id="com.swi.ebs.legato.core.tool.mkapp.1547103447" name="mkapp Tool" superClass="com.swi.ebs.legato.core.tool.mkapp">
+								<inputType id="com.swi.ebs.legato.core.inputType.mkapp.c.772541998" superClass="com.swi.ebs.legato.core.inputType.mkapp.c"/>
+								<inputType id="com.swi.ebs.legato.core.inputType.mkapp.cpp.1132273640" superClass="com.swi.ebs.legato.core.inputType.mkapp.cpp"/>
+							</tool>
+							<tool id="com.swi.ebs.legato.core.tool.mkcomp.1496656061" name="mkcomp Tool" superClass="com.swi.ebs.legato.core.tool.mkcomp"/>
+							<tool id="com.swi.ebs.legato.core.tool.mksys.769031016" name="mksys Tool" superClass="com.swi.ebs.legato.core.tool.mksys"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="test_iot_connComponent"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="com.wavecom.openat.ide.ebs.build.core.settingsprovider" factoryId="org.eclipse.cdt.core.extension.container.factory"/>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="legato.core.af.projectType.exe.debug.1161839036">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="legato.core.af.projectType.exe.debug.1161839036" moduleId="org.eclipse.cdt.core.settings" name="Target_Legato_Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.swi.ebs.legato.core.MkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.swi.ebs.legato.core.CrossGCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${DsLegatoAdefFile}" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,com.wavecom.openat.ide.buildArtefactType=com.wavecom.openat.ide.ebs.core.binaryproject" description="" id="legato.core.af.projectType.exe.debug.1161839036" name="Target_Legato_Debug" parent="legato.core.af.projectType.exe.debug">
+					<folderInfo id="legato.core.af.projectType.exe.debug.1161839036." name="/" resourcePath="">
+						<toolChain id="legato.core.af.projectType.exe.debug.toolchain.980959504" name="Legato Application Framework GCC" superClass="legato.core.af.projectType.exe.debug.toolchain">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="legato.targetPlatform.gnu.cross.1933763183" isAbstract="false" osList="all" superClass="legato.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/test_iot_conn}/Target_Legato_Debug" id="com.swi.ebs.legato.core.builder.af.1587032512" keepEnvironmentInBuildfile="false" name="[Sierra Wireless] Legato Application Framework Builder" superClass="com.swi.ebs.legato.core.builder.af"/>
+							<tool id="com.swi.ebs.legato.core.tool.mkapp.589814071" name="mkapp Tool" superClass="com.swi.ebs.legato.core.tool.mkapp">
+								<inputType id="com.swi.ebs.legato.core.inputType.mkapp.c.280187948" superClass="com.swi.ebs.legato.core.inputType.mkapp.c"/>
+								<inputType id="com.swi.ebs.legato.core.inputType.mkapp.cpp.352805228" superClass="com.swi.ebs.legato.core.inputType.mkapp.cpp"/>
+							</tool>
+							<tool id="com.swi.ebs.legato.core.tool.mkcomp.140640383" name="mkcomp Tool" superClass="com.swi.ebs.legato.core.tool.mkcomp"/>
+							<tool id="com.swi.ebs.legato.core.tool.mksys.190030327" name="mksys Tool" superClass="com.swi.ebs.legato.core.tool.mksys"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="test_iot_connComponent"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="com.wavecom.openat.ide.ebs.build.core.settingsprovider" factoryId="org.eclipse.cdt.core.extension.container.factory"/>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="test_iot_conn.legato.core.af.projectType.exe.1894169749" name="" projectType="legato.core.af.projectType.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

@@ -1,0 +1,23 @@
+executables:
+{
+	test_curl = ( test_curlComponent )
+}
+
+processes:
+{
+	envVars:
+	{
+		LE_LOG_LEVEL = DEBUG
+	}
+
+	run:
+	{
+		( test_curl )
+	}
+
+	maxCoreDumpFileBytes: 512K
+	maxFileBytes: 512K
+}
+
+version: 1.0.0
+maxFileSystemBytes: 512K

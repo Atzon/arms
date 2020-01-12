@@ -1,0 +1,18 @@
+# ninja log v5
+0	132	1575246394	Target_Legato_Debug/component/8509b1aaea1d0044c88eff86c57b0c3b/obj/08d293bcb199bd620fccefa626c6230e.o	6d5cb8b6bc5cb8c4
+1	138	1575246394	Target_Legato_Debug/component/8509b1aaea1d0044c88eff86c57b0c3b/obj/_componentMain.c.o	915eb6de1550cb06
+1	144	1575246394	Target_Legato_Debug/app/test_read_sds011/obj/test_read_sds011/_main.c.o	5915eb7a5830b53e
+138	167	1575246394	Target_Legato_Debug/staging/read-only/lib/libComponent_test_read_sds011Component.so	763b29779082971f
+167	169	1575246394	Target_Legato_Debug/app/test_read_sds011/staging/read-only/lib/libComponent_test_read_sds011Component.so	ffb552b5da7aa19a
+167	195	1575246394	Target_Legato_Debug/app/test_read_sds011/obj/test_read_sds011/test_read_sds011	9846bee32ab6cc5a
+195	197	1575246394	Target_Legato_Debug/app/test_read_sds011/staging/read-only/bin/test_read_sds011	aa575d0526f3efa3
+197	204	1575246394	Target_Legato_Debug/app/test_read_sds011/staging/info.properties	aaef65949d57f931
+204	225	1575246394	Target_Legato_Debug/test_read_sds011.wp77xx.update	88a37499db3cc318
+1	121	1576748066	Target_Legato_Debug/component/8509b1aaea1d0044c88eff86c57b0c3b/obj/_componentMain.c.o	915eb6de1550cb06
+1	133	1576748066	Target_Legato_Debug/app/test_read_sds011/obj/test_read_sds011/_main.c.o	5915eb7a5830b53e
+121	150	1576748066	Target_Legato_Debug/staging/read-only/lib/libComponent_test_read_sds011Component.so	763b29779082971f
+150	152	1576748066	Target_Legato_Debug/app/test_read_sds011/staging/read-only/lib/libComponent_test_read_sds011Component.so	ffb552b5da7aa19a
+150	177	1576748066	Target_Legato_Debug/app/test_read_sds011/obj/test_read_sds011/test_read_sds011	9846bee32ab6cc5a
+177	179	1576748066	Target_Legato_Debug/app/test_read_sds011/staging/read-only/bin/test_read_sds011	aa575d0526f3efa3
+179	186	1576748066	Target_Legato_Debug/app/test_read_sds011/staging/info.properties	aaef65949d57f931
+186	207	1576748066	Target_Legato_Debug/test_read_sds011.wp77xx.update	88a37499db3cc318

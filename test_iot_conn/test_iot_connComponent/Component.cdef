@@ -1,0 +1,28 @@
+requires:
+{
+    api:
+	{
+		le_mrc = modemServices/le_mrc.api
+	}
+
+	lib:
+	{
+		curl
+		ssl
+		crypto
+	}
+	
+	file:
+	{
+		/usr/lib/libcurl.so.4 /lib/
+		/usr/lib/libssl.so.1.0.2 /lib/
+		/usr/lib/libcrypto.so.1.0.2 /lib/
+	}
+	 
+	    
+}
+
+sources:
+{
+	test_iot_connComponent.c
+}
